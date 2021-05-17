@@ -3,7 +3,7 @@
 class app
 {
     protected $controller = "trangchu";
-    protected $action ="show";
+    protected $action = "show";
     protected $params = [];
 
     public function __construct()
@@ -21,7 +21,6 @@ class app
             $this->controller = $arr[0];
             unset($arr[0]);
         }
-
 
         require_once("./mvc/controllers/" . $this->controller . ".php");
         $this->controller = new $this->controller;
@@ -42,7 +41,6 @@ class app
         if (isset($_GET["url"])) {
             return explode("/", filter_var(trim($_GET["url"], "/")));
         }
-
     }
 
 }

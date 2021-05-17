@@ -2,7 +2,7 @@
     <title>Zay Shop eCommerce HTML CSS Template</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <base href="http://localhost/mvc_shop/">
     <link rel="apple-touch-icon" href="http://localhost/mvc_shop/public/img/apple-icon.png">
     <link rel="shortcut icon" type="image/x-icon" href="http://localhost/mvc_shop/public/img/favicon.ico">
 

@@ -16,10 +16,10 @@
                         <a class="nav-link" href="http://localhost/mvc_shop/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost/mvc_shop/sanpham">Shop</a>
+                        <a class="nav-link" href="http://localhost/mvc_shop/sanpham/">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost/mvc_shop/lienhe">Contact</a>
+                        <a class="nav-link" href="http://localhost/mvc_shop/lienhe/">Contact</a>
                     </li>
                 </ul>
             </div>
