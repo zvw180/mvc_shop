@@ -199,7 +199,7 @@ if (isset($data)) {
                                     </li>
                                 </ul>
 
-                                <form method="post" action="http://localhost/mvc_shop/thanhtoan/addSP/"  id="cart">
+                                <form method="post" action="http://localhost/mvc_shop/chitiet/addSP/"  id="cart">
                                     <input type="hidden" name="product-title" value="<?php echo $row->id ?>">
                                     <div class="row">
                                         <div class="col-auto">
@@ -241,7 +241,7 @@ if (isset($data)) {
                                             </button>
                                         </div>
                                         <div class="col d-grid">
-                                            <button type="submit" class="btn btn-success btn-lg" name="submit"
+                                            <button type="submit" class="btn btn-success btn-lg" name="addCart"
                                                     value="submit">Add To Cart
                                             </button>
                                         </div>
