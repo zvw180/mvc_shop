@@ -3,3 +3,4 @@
 <script src="http://localhost/mvc_shop/public/js/bootstrap.bundle.min.js"></script>
 <script src="http://localhost/mvc_shop/public/js/templatemo.js"></script>
 <script src="http://localhost/mvc_shop/public/js/custom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>

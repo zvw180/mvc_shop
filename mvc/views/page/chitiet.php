@@ -170,7 +170,7 @@ if (isset($data)) {
                                         }
                                     }
                                     ?>
-                                    <span class="list-inline-item text-dark">Rating 4.8 | 36 Comments</span>
+                                    <!--                                    <span class="list-inline-item text-dark">Rating 4.8 | 36 Comments</span>-->
                                 </p>
                                 <ul class="list-inline">
                                     <li class="list-inline-item">
@@ -199,8 +199,12 @@ if (isset($data)) {
                                     </li>
                                 </ul>
 
-                                <form method="post" action="http://localhost/mvc_shop/chitiet/addSP/"  id="cart">
-                                    <input type="hidden" name="product-title" value="<?php echo $row->id ?>">
+                                <form method="post" id="addCart">
+                                    <input type="hidden" name="product_id" value="<?php echo $row->id ?>">
+                                    <input type="hidden" name="product_image" value="<?php echo $row->anhSP ?>">
+                                    <input type="hidden" name="product_name" value="<?php echo $row->tenSP ?>">
+                                    <input type="hidden" name="product_price" value="<?php echo $row->giaSP ?>">
+
                                     <div class="row">
                                         <div class="col-auto">
                                             <ul class="list-inline pb-3">
@@ -222,7 +226,7 @@ if (isset($data)) {
                                             <ul class="list-inline pb-3">
                                                 <li class="list-inline-item text-right">
                                                     Quantity
-                                                    <input type="hidden" name="product-quanity" id="product-quanity"
+                                                    <input type="hidden" name="product_quantity" id="product-quanity"
                                                            value="1">
                                                 </li>
                                                 <li class="list-inline-item"><span class="btn btn-success"
@@ -236,13 +240,13 @@ if (isset($data)) {
                                     </div>
                                     <div class="row pb-3">
                                         <div class="col d-grid">
-                                            <button type="submit" class="btn btn-success btn-lg" name="submit"
-                                                    value="buy">Buy
-                                            </button>
+                                            <a type="submit" id="atocart" class="btn btn-success btn-lg" href="http://localhost/mvc_shop/thanhtoan/"
+                                            >Buy
+                                            </a>
                                         </div>
                                         <div class="col d-grid">
-                                            <button type="submit" class="btn btn-success btn-lg" name="addCart"
-                                                    value="submit">Add To Cart
+                                            <button type="submit" class="btn btn-success btn-lg" id="addtocart"
+                                            >Add To Cart
                                             </button>
                                         </div>
                                     </div>
@@ -254,7 +258,7 @@ if (isset($data)) {
                 </div>
             </div>
         </section>
-        <?php
+    <?php
     endforeach;
 }
 ?>
