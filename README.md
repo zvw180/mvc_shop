@@ -11,7 +11,9 @@ Bản quyền tác giả:
 Email: phamthanhnamdev@gmail.com
 
 Dự án được phát triển và chia sẻ với mục đích phi lợi nhuận.
+
 Bản quyền thuộc MIT License
+
 Cảm ơn các bạn đã giúp chia sẻ sản phẩm đến các diễn đàn, cộng đồng, groups facebook... Mình rất vui và cảm ơn khi các bạn làm điều đó. Tuy nhiên, hy vọng các bạn có thể ghi rõ bản quyền và link đến github chính thức của dự án để mọi người có thể biết đến và dễ dàng cập nhật phiên bản mới của sản phẩm.
 Chân thành cảm ơn những email đóng góp ý kiến và báo lỗi của mọi người. Hy vọng sẽ ngày càng nhận được nhiều hơn nữa những email góp ý, nhất là những người đang làm và tiếp xúc trực tiếp với môi trường giáo dục. Một lần nữa, chân thành cảm ơn mọi người.
 Nếu bạn cảm thấy sản phẩm hữu ích, có thể nhấn nút "Star" ở phía trên bên phải cho dự án. Nếu bạn là một lập trình viên và muốn đóng góp phát triển cho dự án, đừng ngần ngại mà hãy nhấn nút "Fork", github và cộng đồng sẽ ghi nhớ và ghi nhận đóng góp của bạn.
@@ -19,7 +21,7 @@ Nếu bạn cảm thấy sản phẩm hữu ích, có thể nhấn nút "Star" �
 
 - Hiện thị sản phẩm mới nhất
 - Giao diện đẹp
-- Tĩnh hợp sẵn api
+- Tính hợp sẵn api
 - Thêm sản phẩm vào giỏ hàng
 
 ## Hướng dẫn cài đặt
