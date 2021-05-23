@@ -5,7 +5,7 @@ class sanpham_model extends database
 
     public function getSP()
     {
-        $sql = "SELECT * FROM sanpham LIMIT 9";
+        $sql = "SELECT * FROM sanpham ORDER BY id DESC LIMIT 9";
 
         $row = mysqli_query($this->con, $sql);
         $mang = array();
@@ -20,9 +20,9 @@ class sanpham_model extends database
 
         if ($a > 0) {
             $b = ($a * 9 ) + 1;
-            $sql = "SELECT * FROM sanpham LIMIT $b,9 ";
+            $sql = "SELECT * FROM sanpham ORDER BY id DESC LIMIT $b,9 ";
         } else {
-            $sql = "SELECT * FROM sanpham LIMIT 0 ,9 ";
+            $sql = "SELECT * FROM sanpham ORDER BY id DESC LIMIT 0 ,9 ";
         }
         $row = mysqli_query($this->con, $sql);
         $mang = array();
