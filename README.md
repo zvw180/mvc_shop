@@ -5,8 +5,11 @@
 Mục tiêu: Xây dựng website bán hàng theo mô hình MVC ,Bootstrap 5 ,PHP 8.0
 ## Thông Tin
 Bản quyền tác giả:
+
 *Phạm Thành Nam*
+
 Email: phamthanhnamdev@gmail.com
+
 Dự án được phát triển và chia sẻ với mục đích phi lợi nhuận.
 Bản quyền thuộc MIT License
 Cảm ơn các bạn đã giúp chia sẻ sản phẩm đến các diễn đàn, cộng đồng, groups facebook... Mình rất vui và cảm ơn khi các bạn làm điều đó. Tuy nhiên, hy vọng các bạn có thể ghi rõ bản quyền và link đến github chính thức của dự án để mọi người có thể biết đến và dễ dàng cập nhật phiên bản mới của sản phẩm.
