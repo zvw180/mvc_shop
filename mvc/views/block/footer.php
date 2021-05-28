@@ -73,7 +73,7 @@
 
                 <div class="col-auto">
                     <label class="sr-only" for="subscribeEmail">Email address</label>
-                    <form id="lienhe" action="http://localhost/mvc_shop/lienhe/addC/">
+                    <form id="lienhe" >
                     <div class="input-group mb-2">
 
                         <input type="text" class="form-control bg-dark border-light text-light" id="subscribeEmail"

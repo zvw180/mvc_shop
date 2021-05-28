@@ -240,9 +240,9 @@ if (isset($data)) {
                                     </div>
                                     <div class="row pb-3">
                                         <div class="col d-grid">
-                                            <a type="submit" id="atocart" class="btn btn-success btn-lg" href="http://localhost/mvc_shop/thanhtoan/"
+                                            <button type="submit"  class="btn btn-success btn-lg" id="buytocart"
                                             >Buy
-                                            </a>
+                                            </button>
                                         </div>
                                         <div class="col d-grid">
                                             <button type="submit" class="btn btn-success btn-lg" id="addtocart"

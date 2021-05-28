@@ -18,9 +18,12 @@
 <?php include_once ("./mvc/views/block/search.php"); ?>
 
 
-<?php if (isset($data)) {
+<?php
+if (isset($data)) {
     require_once ("./mvc/views/page/".$data["page"].".php");
-} ?>
+}
+
+?>
 
 <!-- Start Footer -->
 <?php include_once ("./mvc/views/block/footer.php"); ?>
